@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./retimerstyle.css">
+	<title>Retimer - DRSRC Hub</title>
+</head>
+<body>
+	<ul class="navbar">
+		<li class="navbar"><a href="guide%20index.html">Guides</a></li>
+		<li class="navbar"><a href="resources%20index.html">Resources</a></li>
+		<li class="navbar"><a href="retimer.html">Retimer</a></li>
+		<li class="navbar"><a href="about.html">About</a></li>
+	</ul>
+	<a href="index.html"><img class="navlogo" src="navlogo.png" alt="Image with the Deltarune heart and some text in the Deltarune font, reading 'DRSRC Hub'"></a>
+
+	<div class="castle">
+	<h1>Deltarune All Chapters Retimer (for YouTube)</h1>
+	<h2>About</h2>
+	<p>A tool for retiming "All Chapters" runs of Deltarune. It can also be used to retime any game or category that is made up of multiple segments.
+		It gets the time for each chapter, the real time (RTA) for the run, and the in-game time (IGT, sum of each chapter time).</p>
+	<h2>Number of Segments</h2>
+	<p>
+		<label>Segments: </label>
+		<input type="text" id="segments" size="3" value="2" />
+	</p>
+	<h2>Video Endpoints</h2>
+	<p>Find the relevant points (you can use the <code>,</code> and <code>.</code> keys to find the exact frame), right click the video and select “Copy debug info” and paste it for the frame you are doing.
+		Do this for each section below.</p>
+	
+	<div id="time-inputs"></div>
+	<div id="segment-headers"></div>
+	
+	<h2>IGT Time</h2>
+	<div id="igt-time"></div>
+	<h2>RTA Time</h2>
+	<div id="rta-time"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

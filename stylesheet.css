@@ -1,0 +1,227 @@
+div {
+	color: white;
+	background-color: black;
+}
+@font-face {
+	font-family: Undertale;
+	src: url("DeterminationMonoWebRegular-Z5oq.ttf");
+}
+.fountain-background {
+	background-image:url("./fountainbg.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: local;
+    width: 100vw;
+	height: 100vh;
+}
+.castle-top {
+    background-image:url("./bg1.png");
+    background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1873px;
+}
+.castle-loop {
+    background-image:url("./bg2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	height: 802px;
+}
+.castle-bottom {
+    background-image:url("./bg3.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 867px;
+}
+.castle {
+	background-image:url("./bg1.png");
+    background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 1080px;
+}
+.logo {
+	margin: auto;
+	display: block;
+	height: 123px;
+	width: 1632px;
+	padding-top: 100px;
+}
+.navlogo {
+	position: fixed;
+	margin-top: 1px;
+	margin-left: 5px;
+	display: block;
+}
+
+.orange {color: #ffa500;}
+.cyan {color: #00ffff;}
+.yellow {color: #fefe00;}
+.dred {color: #980000;}
+.blue {color: #4a86e8;}
+.green {color: #00ff00;}
+.red {color: #ff0000;}
+.pink {color: #ff00ff;}
+.olive {color: #6aa84f;}
+
+.tp {color: #0000ed;}
+.tr {color: #7a00cc;}
+.ab {color: #6d9eeb;}
+.boo {color: #b19646;}
+	
+ul.navbar {
+	list-style-type: none;
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding-left: 242px;
+	overflow: hidden;
+	background-color: #333;
+	font-size: 28px;
+	line-height: 1;
+}
+li.navbar {
+	font-family: Undertale;
+	float: left;
+	border-left: 1px solid #bbb;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 14px 8px 14px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+.flex {
+	background: none;
+	display: flex;
+}
+.mainbox {
+	background: none;
+	float: left;
+	margin-left: 179px;
+	margin-top: 25px;
+	display: block;
+	width: 256px;
+	height: 256px;
+}
+.mainbox img{
+	box-shadow: 3px 3px 8px black;
+	width: 256px;
+	height: 256px;
+}
+.mainbox p{
+	margin-top: 0;
+	font-size: 50px;
+	font-family: Undertale;
+	text-shadow: 3px 3px black;
+	text-align: center;
+}
+.guidebox {
+	background: none;
+	float: left;
+	margin-left: 105px;
+	margin-top: 25px;
+	display: block;
+	width: 500px;
+	height: 214px;
+}
+.guidebox img{
+	margin-left: 128.5px;
+	width: 243px;
+	height: 214px;
+}
+.guidebox h3{
+	margin-top: 0;
+	font-size: 40px;
+	font-family: Undertale;
+	text-align: center;
+}
+.guidebox p{
+	margin-top: 0;
+	font-size: 25px;
+	text-align: left;
+}
+
+.main-body {
+	padding: 0;
+	margin: 0;
+	p {
+		font-family: Undertale;
+		font-size: 50px;
+		text-shadow: 3px 3px 8px black;
+		line-height: 1;
+		text-align: center;
+	}
+}
+.index-body {
+	padding: 0;
+	margin: 0;
+	h1 {
+		font-size: 100px;
+		margin: 0;
+		padding-top: 75px;
+		text-align: center;
+	}
+	h2 {
+		margin-top: 25px;
+		font-size: 50px;
+		text-align: center;
+	}
+}
+.guide-body {
+	padding: 0;
+	margin: 0;
+	h1 {
+		font-size: 100px;
+		margin: 0;
+		padding-top: 75px;
+		text-align: center;
+	}
+	h2 {
+		font-size: 50px;
+		text-align: center;
+	}
+	h3 {
+		font-size: 35px;
+		font-style: italic;
+		text-align: left;
+		padding-left: 200px;
+	}
+	p {
+		font-size: 25px;
+		line-height: 1;
+		text-align: left;
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+	ul.guide {
+		font-size: 25px;
+		line-height: 1;
+		text-align: left;
+		padding-left: 175px;
+		padding-right: 150px;
+	}
+}
+.about-body {
+	padding: 0;
+	margin: 0;
+	h1 {
+		font-size: 100px;
+		margin: 0;
+		padding-top: 75px;
+		text-align: center;
+	}
+	p {
+		font-size: 30px;
+		line-height: 1;
+		text-align: left;
+		padding-top: 25px;
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+}
