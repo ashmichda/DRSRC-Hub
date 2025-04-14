@@ -7,7 +7,7 @@ div {
 	src: url("DeterminationMonoWebRegular-Z5oq.ttf");
 }
 .fountain-background {
-	background-image:url("./fountainbg.gif");
+	background-image:url("images/fountainbg.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -16,25 +16,25 @@ div {
 	height: 100vh;
 }
 .castle-top {
-    background-image:url("./bg1.png");
+    background-image:url("images/bg1.png");
     background-size: 100%;
 	background-repeat: no-repeat;
 	height: 1873px;
 }
 .castle-loop {
-    background-image:url("./bg2.png");
+    background-image:url("images/bg2.png");
     background-size: 100%;
     background-repeat: no-repeat;
 	height: 802px;
 }
 .castle-bottom {
-    background-image:url("./bg3.png");
+    background-image:url("images/bg3.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
     height: 867px;
 }
 .castle {
-	background-image:url("./bg1.png");
+	background-image:url("images/bg1.png");
     background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -63,7 +63,6 @@ div {
 .red {color: #ff0000;}
 .pink {color: #ff00ff;}
 .olive {color: #6aa84f;}
-
 .tp {color: #0000ed;}
 .tr {color: #7a00cc;}
 .ab {color: #6d9eeb;}
@@ -78,7 +77,6 @@ ul.navbar {
 	overflow: hidden;
 	background-color: #333;
 	font-size: 28px;
-	line-height: 1;
 }
 li.navbar {
 	font-family: Undertale;
@@ -154,7 +152,6 @@ li a:hover {
 		font-family: Undertale;
 		font-size: 50px;
 		text-shadow: 3px 3px 8px black;
-		line-height: 1;
 		text-align: center;
 	}
 }
@@ -192,16 +189,19 @@ li a:hover {
 		text-align: left;
 		padding-left: 200px;
 	}
+	h4 {
+		margin: 0;
+		font-size: 25px;
+		text-align: center;
+	}
 	p {
 		font-size: 25px;
-		line-height: 1;
 		text-align: left;
 		padding-left: 150px;
 		padding-right: 150px;
 	}
 	ul.guide {
 		font-size: 25px;
-		line-height: 1;
 		text-align: left;
 		padding-left: 175px;
 		padding-right: 150px;
